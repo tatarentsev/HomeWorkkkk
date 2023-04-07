@@ -13,7 +13,7 @@ num3 = (number // 1000) % 10
 num2 = (number // 10000) % 10
 num1 = number // 100000
 
-if (num1 + num2) + num3 == (num4 + num5) + num6:
+if len(number) == 6 and (num1 + num2) + num3 == (num4 + num5) + num6:
     print("yes")
 else:
     print("no")
